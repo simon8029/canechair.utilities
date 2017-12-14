@@ -1,0 +1,23 @@
+{
+  "name": "canechair.utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon8029/canechair.utilities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simon8029/canechair.utilities/issues"
+  },
+  "homepage": "https://github.com/simon8029/canechair.utilities#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "jest": "21.2.1"
+  }
+}
