@@ -3,7 +3,10 @@
   "version": "0.1.6",
   "description": "",
   "main": "./lib/canechair-utilities.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simon8029/canechair.utilities.git"
@@ -17,7 +20,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
-    "jest": "21.2.1"
+    "css-loader": "^0.28.7",
+    "jest": "21.2.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
   }
 }
