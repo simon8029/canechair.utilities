@@ -2,10 +2,11 @@
   "name": "canechair-utilities",
   "version": "0.1.6",
   "description": "",
-  "main": "./lib/canechair-utilities.js",
+  "main": "./src/canechair-utilities.js",
   "scripts": {
     "dev": "webpack -d --watch",
-    "prod": "webpack -p"
+    "prod": "webpack -p",
+    "build": "rollup ./src/canechair-utilities.js --format umd --name canechair-utilities --output dist/canechair-utilities.umd.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.7",
     "jest": "21.2.1",
+    "rollup": "^0.52.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0"
